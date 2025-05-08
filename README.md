@@ -12,15 +12,15 @@
 正距円筒画像から横方向の画角60度、縦方向の画角30度を指定して正距円筒画像の正面方向の透視投影画像を作成します
 ```bash
 360convert equirect.png perspective.png 60 30
-
+```
 正距円筒画像から横方向の画角45度、縦方向の画角45度、横方向に視線を30度、縦方向に視線を10度回転した透視投影画像を作成します
 ```bash
 360convert equirect.png perspective.png 45 45 --ua 30 --va 10
-
+```
 魚眼画像から横方向の画角30度、縦方向の画角30度、画像面を45度回転した透視投影画像を作成します
 ```bash
 360convert fisheye.png perspective.png 30 30 --za 45 --image-type 1
-
+```
 ## 必須入力
 | オプション | 説明 |
 | :--- |
