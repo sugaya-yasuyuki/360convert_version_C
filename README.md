@@ -22,7 +22,7 @@
 360convert fisheye.png perspective.png 30 30 --za 45 --image-type 1
 ```
 ## 必須入力
-| オプション | 説明 |
+| 説明 |
 | :--- |
 | 入力画像ファイル名 |
 | 出力画像ファイル名 |
